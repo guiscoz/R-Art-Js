@@ -1,0 +1,123 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "purpleJack",
+            "description": "I like to make 3D models",
+            "profile_picture": "./profile/purplejack.png"
+        },
+        {
+            "id": 2,
+            "name": "greenJane",
+            "description": "Drawing is my passion, I'm very good at it.",
+            "profile_picture": "./profile/greenjane.png"
+        },
+        {
+            "id": 3,
+            "name": "TattoOliver",
+            "description": "My name is Oliver and my mom told me that I'm the best tattoo artist in the world!",
+            "profile_picture": "./profile/tattooliver.png"
+        }, 
+        {
+            "id": 4,
+            "name": "noPicture",
+            "description": "Hello, I have no profile picture",
+            "profile_picture": ""
+        },
+        {
+            "id": 5,
+            "name": "ReginArt",
+            "description": "Graphic designer",
+            "profile_picture": "./profile/reginarte.png"
+        }, 
+        {
+            "id": 6,
+            "name": "ghost",
+            "description": "...",
+            "profile_picture": ""
+        }, 
+        {
+            "id": 7,
+            "name": "SomeoneElse",
+            "description": "I'm just someone else",
+            "profile_picture": "./profile/someonelse.png"
+        }
+    ],
+    "follows": [
+        {
+            "id": 1,
+            "follower_id": 1,
+            "following_id": 2
+        },
+        {
+            "id": 2,
+            "follower_id": 1,
+            "following_id": 6
+        },
+        {
+            "id": 3,
+            "follower_id": 2,
+            "following_id": 1
+        },
+        {
+            "id": 4,
+            "follower_id": 2,
+            "following_id": 3
+        },
+        {
+            "id": 5,
+            "follower_id": 2,
+            "following_id": 6
+        },
+        {
+            "id": 6,
+            "follower_id": 3,
+            "following_id": 6
+        },
+        {
+            "id": 7,
+            "follower_id": 5,
+            "following_id": 6
+        },
+        {
+            "id": 8,
+            "follower_id": 6,
+            "following_id": 5
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "author_id": 1,
+            "image_path": "./posts/purplejack/bomberman.png",
+            "description": "3D Bomberman"
+        },
+        {
+            "id": 2,
+            "author_id": 1,
+            "image_path": "./posts/purplejack/bob.png",
+            "description": "3D guy with a gigant knife"
+        }, 
+        {
+            "id": 3,
+            "author_id": 1,
+            "image_path": "./posts/purplejack/ulala.png",
+            "description": "Ulala from the game Space Channel 5"
+        }
+    ],
+    "likes": [
+        {
+            "id": 1,
+            "post-id": 1,
+            "user-id": 2
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "author_id": 1,
+            "post_id": 1,
+            "content": "first"
+        }
+    ] 
+}
