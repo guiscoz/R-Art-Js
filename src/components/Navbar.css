@@ -1,0 +1,57 @@
+@import '../variables.css';
+
+.navbar {
+    background-color: var(--dark-green);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar p {
+    display: none;
+}
+
+.navbar a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    color: var(--light-pink);
+    text-decoration: none;
+}
+
+.navbar a.active {
+    border: 3px solid var(--light-pink);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: var(--dark-pink);
+    border-radius: 10px;
+}
+
+.navbar a.active:hover {
+    border: 3px solid var(--dark-pink);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        position: static;
+        width: auto;
+        text-align: left;
+    }
+
+    .navbar p {
+        display: block;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+        display: block;
+    }
+}

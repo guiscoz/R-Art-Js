@@ -1,54 +1,25 @@
-:root{
-  --dark-green: #698C65; 
-  --light-green: #EDFFEB;
-  --main-green: #B5D8B1;
-  --dark-pink: #8C5779;
-  --light-pink: #D9B2CB;
+@import './variables.css';
 
-  /* talvez eu mude a paleta que estou usando em cima */
-  --rosa: #F4B1B8;
-  --azul: #AEC6CF;
-  --verde: #B5D8B1;
-  --amarelo: #F9EACD;
-  --lilas: #C7BFE6;
+body {
+  background-color: var(--main-green);
 }
 
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 768px) {
+  .container {
+      flex-direction: row;
   }
-  to {
-    transform: rotate(360deg);
+
+  .content {
+      flex: 1;
   }
 }

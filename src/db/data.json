@@ -4,19 +4,19 @@
             "id": 1,
             "name": "purpleJack",
             "description": "I like to make 3D models",
-            "profile_picture": "./profile/purplejack.png"
+            "profile_picture": "profile/purplejack.png"
         },
         {
             "id": 2,
             "name": "greenJane",
             "description": "Drawing is my passion, I'm very good at it.",
-            "profile_picture": "./profile/greenjane.png"
+            "profile_picture": "profile/greenjane.png"
         },
         {
             "id": 3,
             "name": "TattoOliver",
             "description": "My name is Oliver and my mom told me that I'm the best tattoo artist in the world!",
-            "profile_picture": "./profile/tattooliver.png"
+            "profile_picture": "profile/tattooliver.png"
         }, 
         {
             "id": 4,
@@ -28,7 +28,7 @@
             "id": 5,
             "name": "ReginArt",
             "description": "Graphic designer",
-            "profile_picture": "./profile/reginarte.png"
+            "profile_picture": "profile/reginarte.png"
         }, 
         {
             "id": 6,
@@ -40,7 +40,7 @@
             "id": 7,
             "name": "SomeoneElse",
             "description": "I'm just someone else",
-            "profile_picture": "./profile/someonelse.png"
+            "profile_picture": "profile/someonelse.png"
         }
     ],
     "follows": [
@@ -88,19 +88,19 @@
     "posts": [
         {
             "id": 1,
-            "author_id": 1,
+            "user_id": 1,
             "image_path": "./posts/purplejack/bomberman.png",
             "description": "3D Bomberman"
         },
         {
             "id": 2,
-            "author_id": 1,
+            "user_id": 1,
             "image_path": "./posts/purplejack/bob.png",
             "description": "3D guy with a gigant knife"
         }, 
         {
             "id": 3,
-            "author_id": 1,
+            "user_id": 1,
             "image_path": "./posts/purplejack/ulala.png",
             "description": "Ulala from the game Space Channel 5"
         }
@@ -115,7 +115,7 @@
     "comments": [
         {
             "id": 1,
-            "author_id": 1,
+            "user_id": 1,
             "post_id": 1,
             "content": "first"
         }
