@@ -1,0 +1,22 @@
+@import '../variables.css';
+
+header {
+    display: flex;
+    justify-content: center;  
+    background-color: var(--light-green);
+    color: var(--dark-green);
+}
+
+header > * {
+    margin: 0 50px; /* Espaçamento automático de 10px em todas as direções */
+  }
+
+header img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+header section {
+    display: grid;
+    place-items: center; 
+}
