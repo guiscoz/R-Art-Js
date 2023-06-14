@@ -89,20 +89,26 @@
         {
             "id": 1,
             "user_id": 1,
-            "image_path": "./posts/purplejack/bomberman.png",
+            "image_path": "posts/purplejack/bomberman.png",
             "description": "3D Bomberman"
         },
         {
             "id": 2,
             "user_id": 1,
-            "image_path": "./posts/purplejack/bob.png",
+            "image_path": "posts/purplejack/bob.png",
             "description": "3D guy with a gigant knife"
         }, 
         {
             "id": 3,
             "user_id": 1,
-            "image_path": "./posts/purplejack/ulala.png",
+            "image_path": "posts/purplejack/ulala.png",
             "description": "Ulala from the game Space Channel 5"
+        }, 
+        {
+            "id": 4,
+            "user_id": 1,
+            "image_path": "posts/purplejack/3dDog.png",
+            "description": "It's a lowpoly dog"
         }
     ],
     "likes": [

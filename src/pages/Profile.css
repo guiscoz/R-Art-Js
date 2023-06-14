@@ -8,15 +8,93 @@ header {
 }
 
 header > * {
-    margin: 0 50px; /* Espaçamento automático de 10px em todas as direções */
-  }
-
-header img {
-    height: 300px;
-    border-radius: 50%;
+    margin: 40px 30px 20px;
 }
 
-header section {
+header img {
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--main-green);
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.top button {
+    width: 5rem;
+    height: auto;
+    margin: 10px 0px;
+    background-color: var(--light-pink);
+    color: var(--dark-pink);
+    font-weight: bolder;
+    border:none;
+    border-radius: 5%;
+}
+
+.top button:hover {
+    text-decoration: underline;
+}
+
+.top button.active {
+    background-color: var(--dark-pink);
+    color: var(--light-pink);
+}
+
+.desc {
+    width: 100%;
+}
+
+.desc p {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.status span {
+    font-weight: bold;
+}
+
+.status a {
+    text-decoration: none;
+    color: var(--dark-pink);
+}
+
+.status a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    padding: 15px 5px 75px;
     display: grid;
-    place-items: center; 
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com largura igual */
+    gap: 10px; /* Define o espaçamento entre as imagens */
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    height: 200px;
+    width: auto;
+}
+
+@media (min-width: 768px) {
+    .gallery {
+        padding: 30px 15px 75px;
+    }
+
+    .image img {
+        height: 300px;
+    }
+
+    header img {
+        height: 150px;
+    }
 }
