@@ -28,7 +28,7 @@
             "id": 5,
             "name": "ReginArt",
             "description": "Graphic designer",
-            "profile_picture": "profile/reginarte.png"
+            "profile_picture": "profile/reginart.png"
         }, 
         {
             "id": 6,
@@ -90,38 +90,42 @@
             "id": 1,
             "user_id": 1,
             "image_path": "posts/purplejack/bomberman.png",
-            "description": "3D Bomberman"
+            "title": "Bomberman",
+            "description": "3D Bomberman model"
         },
         {
             "id": 2,
             "user_id": 1,
             "image_path": "posts/purplejack/bob.png",
+            "title": "The maniac",
             "description": "3D guy with a gigant knife"
         }, 
         {
             "id": 3,
             "user_id": 1,
             "image_path": "posts/purplejack/ulala.png",
+            "title": "Ulala",
             "description": "Ulala from the game Space Channel 5"
         }, 
         {
             "id": 4,
             "user_id": 1,
             "image_path": "posts/purplejack/3dDog.png",
-            "description": "It's a lowpoly dog"
+            "title": "Faceless dog",
+            "description": "It's a lowpoly dog with no face"
         }
     ],
     "likes": [
         {
             "id": 1,
-            "post-id": 1,
-            "user-id": 2
+            "post_id": 1,
+            "user_id": 2
         }
     ],
     "comments": [
         {
             "id": 1,
-            "user_id": 1,
+            "user_id": 3,
             "post_id": 1,
             "content": "first"
         }

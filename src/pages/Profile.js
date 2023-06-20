@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Image } from "react-bootstrap";
+import { Link } from 'react-router-dom';
+import noPicture from "../assets/noPicture.png";
 import "./Profile.css";
 
 const Profile = ({ user, followers, following, posts }) => {
@@ -20,7 +22,7 @@ const Profile = ({ user, followers, following, posts }) => {
         <>
             <header>
                 <div className="picture">
-                    <Image id="avatar" alt="User Profile Picture" src={require(`../db/${user.profile_picture}`)}/>
+                    <Image id="avatar" alt="User Profile Picture" src={user.profile_picture !== "" ? require(`../db/${user.profile_picture}`) : noPicture}/>
                 </div>
                 <section>
                     <div className="top">
@@ -28,7 +30,13 @@ const Profile = ({ user, followers, following, posts }) => {
                         <button onClick={followClick} className={`picture ${isActive ? "active" : ""}`}>{buttonText}</button> 
                     </div>
                     <div className="status">
-                        <span>{posts.length}</span> posts, <a href={`/${user.name}/followers`}><span>{followers.length}</span> followers</a>, <a href={`/${user.name}/following`}><span>{following.length}</span> following</a>
+                        <span>
+                            {posts.length}
+                        </span> posts, <Link to={{pathname: `/${user.name}/followers`}}>
+                            <span>{followers.length}</span> followers
+                        </Link>, <Link to={{pathname: `/${user.name}/following`}}>
+                            <span>{following.length}</span> following
+                        </Link>
                     </div>
                     <div className="desc">
                         <p>{user.description}</p>
@@ -37,11 +45,14 @@ const Profile = ({ user, followers, following, posts }) => {
             </header>
             <body>
                 <div className="gallery">
-                    {posts.map(post => (
-                        <div className="image">
+                    {posts.length === 0 ? (
+                        <p>No images available.</p>
+                    ) : (posts.map(post => (
+                        <div className="image" key={post.id}>
                             <Image id="avatar" alt="Post image" src={require(`../db/${post.image_path}`)}/>
                         </div>
-                    ))}
+                        ))
+                    )}
                 </div>
             </body>
         </>

@@ -5,8 +5,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import Navigation from "./components/Navbar";
+
+import HomePage from "./pages/HomePage";
 import Profile from "./pages/Profile";
-import FollowModal from "./components/FollowModal";
+import FollowList from "./pages/FollowList";
 
 function App() {
   const users = data.users;
@@ -21,6 +23,7 @@ function App() {
         <Navigation />
         <div className="content">
           <Routes>
+            <Route path="/" element={<HomePage users={users} posts={posts} likes={likes} comments={comments} />} />
             {users.map(user => (
               <>
                 <Route 
@@ -34,8 +37,8 @@ function App() {
                   />} 
                 />
                 <Route 
-                  path={`/:${user.name}/followers`}
-                  element={<FollowModal 
+                  path={`/${user.name}/followers`}
+                  element={<FollowList 
                     title="Followers" 
                     users={follows
                       .filter(follow => follow.follower_id === user.id)
@@ -47,8 +50,8 @@ function App() {
                   />} 
                 />
                 <Route 
-                  path={`/:${user.name}/following`}
-                  element={<FollowModal 
+                  path={`/${user.name}/following`}
+                  element={<FollowList 
                     title="Following" 
                     users={follows
                       .filter(follow => follow.following_id === user.id)

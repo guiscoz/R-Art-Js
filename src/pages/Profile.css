@@ -72,6 +72,12 @@ header img {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com largura igual */
     gap: 10px; /* Define o espaçamento entre as imagens */
+    align-items: center;
+}
+
+.gallery p {
+    color: var(--dark-green);
+    text-align: center;
 }
 
 .image {
