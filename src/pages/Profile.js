@@ -12,11 +12,11 @@ const Profile = ({ user, followers, following, posts }) => {
         setIsActive(!isActive);
 
         if (buttonText === "Follow") {
-          setButtonText("Unfollow");
+            setButtonText("Unfollow");
         } else {
-          setButtonText("Follow");
+            setButtonText("Follow");
         }
-      };
+    };
 
     return (
         <>

@@ -1,0 +1,30 @@
+@import '../variables.css';
+
+.home-container {
+    width: 90%;
+    margin: 0 auto 25px;
+    background-color: var(--light-green);
+    border-radius: 25px;
+}
+
+.welcome-header {
+    color: var(--dark-green);
+    text-align: center;
+    border-bottom: 1px var(--main-green) solid;
+}
+
+.welcome-header h1 {
+    font-size: 3rem;
+    padding-top: 15px;
+    margin-bottom: -10px;
+}
+
+.welcome-header p {
+    font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+    .home-container {
+        width: 80%;
+    }
+  }

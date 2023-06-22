@@ -7,7 +7,7 @@ import './Navbar.css';
 const Navigation = () => {
   return (
     <div className="navbar">
-      <Link to="/" className="active"><FontAwesomeIcon icon={faHouse} /><p>Página inicial</p></Link>
+      <Link to="/" id="first-item"><FontAwesomeIcon icon={faHouse} /><p>Página inicial</p></Link>
       <Link to="/purplejack"><FontAwesomeIcon icon={faUser} /><p>Perfil</p></Link >
       <a href="#"><FontAwesomeIcon icon={faMagnifyingGlass} /><p>Pesquisar</p></a>
     </div>

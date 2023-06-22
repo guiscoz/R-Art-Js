@@ -14,9 +14,9 @@
         },
         {
             "id": 3,
-            "name": "TattoOliver",
-            "description": "My name is Oliver and my mom told me that I'm the best tattoo artist in the world!",
-            "profile_picture": "profile/tattooliver.png"
+            "name": "OliverAI",
+            "description": "My name is Oliver and I make images with Dall-E",
+            "profile_picture": "profile/oliverAI.png"
         }, 
         {
             "id": 4,
@@ -95,24 +95,45 @@
         },
         {
             "id": 2,
+            "user_id": 3,
+            "image_path": "posts/oliverAI/bojack-ai.png",
+            "title": "Bojack Horseman AI",
+            "description": "Image made with Dall-E"
+        }, 
+        {
+            "id": 3,
             "user_id": 1,
             "image_path": "posts/purplejack/bob.png",
             "title": "The maniac",
             "description": "3D guy with a gigant knife"
         }, 
         {
-            "id": 3,
+            "id": 4,
             "user_id": 1,
             "image_path": "posts/purplejack/ulala.png",
             "title": "Ulala",
             "description": "Ulala from the game Space Channel 5"
+        },
+        {
+            "id": 5,
+            "user_id": 3,
+            "image_path": "posts/oliverAI/rat-ai.png",
+            "title": "Rat AI",
+            "description": "Yellow rat drinking soda with watching TV made with Dall-E"
         }, 
         {
-            "id": 4,
+            "id": 6,
             "user_id": 1,
             "image_path": "posts/purplejack/3dDog.png",
             "title": "Faceless dog",
             "description": "It's a lowpoly dog with no face"
+        },
+        {
+            "id": 7,
+            "user_id": 3,
+            "image_path": "posts/oliverAI/rj-ai.png",
+            "title": "8-bits Rio de Janeiro AI",
+            "description": "8 bits image made with Dall-E"
         }
     ],
     "likes": [

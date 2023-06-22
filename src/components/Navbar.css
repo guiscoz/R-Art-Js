@@ -39,9 +39,13 @@
     font-weight: bold;
 }
 
+#first-item {
+    margin-top: 0;
+}
+
 @media (min-width: 768px) {
     .navbar {
-        position: static;
+        height: 100vh;
         width: auto;
         text-align: left;
     }
@@ -53,5 +57,9 @@
     .navbar a {
         margin: 10px 0;
         display: block;
+    }
+
+    #first-item {
+        margin-top: 45px;
     }
 }
