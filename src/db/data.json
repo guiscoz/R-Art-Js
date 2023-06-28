@@ -15,7 +15,7 @@
         {
             "id": 3,
             "name": "OliverAI",
-            "description": "My name is Oliver and I make images with Dall-E",
+            "description": "My name is Oliver and I make images with AI tools",
             "profile_picture": "profile/oliverAI.png"
         }, 
         {
@@ -97,43 +97,121 @@
             "id": 2,
             "user_id": 3,
             "image_path": "posts/oliverAI/bojack-ai.png",
-            "title": "Bojack Horseman AI",
-            "description": "Image made with Dall-E"
+            "description": "Bojack Horseman image made with Dall-E"
         }, 
         {
             "id": 3,
             "user_id": 1,
             "image_path": "posts/purplejack/bob.png",
-            "title": "The maniac",
-            "description": "3D guy with a gigant knife"
+            "description": "3D guy in a gigant knife"
         }, 
         {
             "id": 4,
             "user_id": 1,
             "image_path": "posts/purplejack/ulala.png",
-            "title": "Ulala",
             "description": "Ulala from the game Space Channel 5"
+        },
+        {
+            "id": 4,
+            "user_id": 5,
+            "image_path": "posts/reginart/poligonal_man.jpg",
+            "description": "Poligonal man"
         },
         {
             "id": 5,
             "user_id": 3,
             "image_path": "posts/oliverAI/rat-ai.png",
-            "title": "Rat AI",
-            "description": "Yellow rat drinking soda with watching TV made with Dall-E"
-        }, 
+            "description": "Yellow rat drinking soda while watching TV made with Dall-E"
+        },
         {
             "id": 6,
+            "user_id": 5,
+            "image_path": "posts/reginart/barrel_roll.jpg",
+            "description": "Do a barrel roll"
+        }, 
+        {
+            "id": 7,
             "user_id": 1,
             "image_path": "posts/purplejack/3dDog.png",
-            "title": "Faceless dog",
             "description": "It's a lowpoly dog with no face"
         },
         {
-            "id": 7,
+            "id": 8,
+            "user_id": 5,
+            "image_path": "posts/reginart/the_cure.png",
+            "description": "The Cure band vectorized"
+        },
+        {
+            "id": 9,
             "user_id": 3,
             "image_path": "posts/oliverAI/rj-ai.png",
-            "title": "8-bits Rio de Janeiro AI",
-            "description": "8 bits image made with Dall-E"
+            "description": "8 bits Rio de Janeiro made with Dall-E"
+        },
+        {
+            "id": 10,
+            "user_id": 5,
+            "image_path": "posts/reginart/islands_01.jpg",
+            "description": "Island of Samurais & Gunners"
+        },
+        {
+            "id": 11,
+            "user_id": 5,
+            "image_path": "posts/reginart/islands_02.jpg",
+            "description": "Island of Sumos & Ninjas"
+        },
+        {
+            "id": 12,
+            "user_id": 3,
+            "image_path": "posts/oliverAI/cat-space-ai.png",
+            "description": "Astronaut cat made with Dall-E"
+        },
+        {
+            "id": 13,
+            "user_id": 3,
+            "image_path": "posts/oliverAI/elephant-pizza-ai.png",
+            "description": "Elephant making pizza made with Dall-E"
+        },
+        {
+            "id": 14,
+            "user_id": 5,
+            "image_path": "posts/reginart/islands_02.jpg",
+            "description": "Island of Sumos & Ninjas"
+        },
+        {
+            "id": 15,
+            "user_id": 2,
+            "image_path": "posts/greenjane/boy.jpg",
+            "description": "A boy sitting on the floor"
+        },
+        {
+            "id": 16,
+            "user_id": 2,
+            "image_path": "posts/greenjane/dress.jpg",
+            "description": "A lady with dress"
+        },
+        {
+            "id": 17,
+            "user_id": 2,
+            "image_path": "posts/greenjane/dragon.jpg",
+            "description": "A dragon and woman holding a dragon"
+        },
+        {
+            "id": 18,
+            "user_id": 2,
+            "image_path": "posts/greenjane/me.jpg",
+            "description": "I drew myself"
+        },
+        {
+            "id": 19,
+            "user_id": 2,
+            "image_path": "posts/greenjane/patricia.png",
+            "description": "Girl with purple dress"
+        },
+        {
+            "id": 20,
+            "user_id": 2,
+            "image_path": "posts/greenjane/someoneElse.jpg",
+            "description": "It's someone else"
         }
     ],
     "likes": [
@@ -141,6 +219,151 @@
             "id": 1,
             "post_id": 1,
             "user_id": 2
+        },
+        {
+            "id": 2,
+            "post_id": 1,
+            "user_id": 3
+        },
+        {
+            "id": 3,
+            "post_id": 1,
+            "user_id": 5
+        },
+        {
+            "id": 4,
+            "post_id": 1,
+            "user_id": 6
+        },
+        {
+            "id": 5,
+            "post_id": 1,
+            "user_id": 7
+        },
+        {
+            "id": 6,
+            "post_id": 2,
+            "user_id": 1
+        },
+        {
+            "id": 7,
+            "post_id": 3,
+            "user_id": 2
+        },
+        {
+            "id": 8,
+            "post_id": 4,
+            "user_id": 3
+        },
+        {
+            "id": 9,
+            "post_id": 4,
+            "user_id": 5
+        },
+        {
+            "id": 10,
+            "post_id": 5,
+            "user_id": 1
+        },
+        {
+            "id": 11,
+            "post_id": 5,
+            "user_id": 2
+        },
+        {
+            "id": 12,
+            "post_id": 5,
+            "user_id": 3
+        },
+        {
+            "id": 13,
+            "post_id": 6,
+            "user_id": 4
+        },
+        {
+            "id": 14,
+            "post_id": 6,
+            "user_id": 5
+        },
+        {
+            "id": 15,
+            "post_id": 7,
+            "user_id": 6
+        },
+        {
+            "id": 16,
+            "post_id": 8,
+            "user_id": 7
+        },
+        {
+            "id": 17,
+            "post_id": 8,
+            "user_id": 1
+        },
+        {
+            "id": 18,
+            "post_id": 9,
+            "user_id": 2
+        },
+        {
+            "id": 19,
+            "post_id": 9,
+            "user_id": 3
+        },
+        {
+            "id": 20,
+            "post_id": 10,
+            "user_id": 4
+        },
+        {
+            "id": 21,
+            "post_id": 10,
+            "user_id": 5
+        },
+        {
+            "id": 22,
+            "post_id": 11,
+            "user_id": 6
+        },
+        {
+            "id": 23,
+            "post_id": 11,
+            "user_id": 7
+        },
+        {
+            "id": 24,
+            "post_id": 12,
+            "user_id": 1
+        },
+        {
+            "id": 25,
+            "post_id": 12,
+            "user_id": 2
+        },
+        {
+            "id": 26,
+            "post_id": 19,
+            "user_id": 3
+        },
+        {
+            "id": 27,
+            "post_id": 14,
+            "user_id": 4
+        },
+        {
+            "id": 28,
+            "post_id": 14,
+            "user_id": 5
+        },
+        {
+            "id": 29,
+            "post_id": 15,
+            "user_id": 6
+        },
+        {
+            "id": 30,
+            "post_id": 15,
+            "user_id": 7
         }
     ],
     "comments": [
@@ -149,6 +372,12 @@
             "user_id": 3,
             "post_id": 1,
             "content": "first"
+        },
+        {
+            "id": 2,
+            "user_id": 7,
+            "post_id": 1,
+            "content": "Amazing model"
         }
     ] 
 }

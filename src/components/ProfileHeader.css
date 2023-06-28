@@ -5,6 +5,7 @@ header {
     justify-content: center;  
     background-color: var(--light-green);
     color: var(--dark-green);
+    width: 100vw;
 }
 
 header > * {
@@ -23,12 +24,23 @@ header img {
     justify-content: space-evenly;
     font-weight: bolder;
     font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.top a {
+    color: var(--dark-pink);
+    text-decoration: none;
+}
+
+.top a:hover {
+    text-decoration: underline;
 }
 
 .top button {
     width: 5rem;
     height: auto;
-    margin: 10px 0px;
+    margin: 0;
+    padding: 5px 0;
     background-color: var(--light-pink);
     color: var(--dark-pink);
     font-weight: bolder;
@@ -45,59 +57,9 @@ header img {
     color: var(--light-pink);
 }
 
-.desc {
-    width: 100%;
-}
-
-.desc p {
-    text-align: left;
-    font-size: 0.9rem;
-}
-
-.status span {
-    font-weight: bold;
-}
-
-.status a {
-    text-decoration: none;
-    color: var(--dark-pink);
-}
-
-.status a:hover {
-    text-decoration: underline;
-}
-
-.gallery {
-    padding: 15px 5px 75px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas com largura igual */
-    gap: 10px; /* Define o espaçamento entre as imagens */
-    align-items: center;
-}
-
-.gallery p {
-    color: var(--dark-green);
-    text-align: center;
-}
-
-.image {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.image img {
-    height: 200px;
-    width: auto;
-}
-
 @media (min-width: 768px) {
-    .gallery {
-        padding: 30px 15px 75px;
-    }
-
-    .image img {
-        height: 300px;
+    header {
+        width: auto;
     }
 
     header img {

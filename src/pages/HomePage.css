@@ -23,7 +23,18 @@
     font-size: 1.1rem;
 }
 
+.posts-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    border-radius: 25px;
+}
+
 @media (min-width: 768px) {
+    .posts-container {
+        padding-bottom: 5px;
+    }
+
     .home-container {
         width: 80%;
     }

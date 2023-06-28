@@ -1,0 +1,57 @@
+@import '../variables.css';
+
+.desc {
+    width: 100%;
+}
+
+.desc p {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.status span {
+    font-weight: bold;
+}
+
+.status a {
+    text-decoration: none;
+    color: var(--dark-pink);
+}
+
+.status a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    padding: 15px 5px 75px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    align-items: center;
+}
+
+.gallery p {
+    color: var(--dark-green);
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    max-height: 150px;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .gallery {
+        padding: 30px 15px 75px;
+    }
+
+    .image img {
+        max-height: 300px;
+    }
+}
