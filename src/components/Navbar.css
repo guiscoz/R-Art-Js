@@ -1,5 +1,6 @@
 @import '../variables.css';
 
+
 .navbar {
     background-color: var(--dark-green);
     padding: 10px;
@@ -14,7 +15,7 @@
     display: none;
 }
 
-.navbar a {
+.navbar a, .nav-search {
     display: inline-block;
     margin: 0 10px;
     padding: 10px;
@@ -22,25 +23,29 @@
     text-decoration: none;
 }
 
-.navbar a.active {
-    border: 3px solid var(--light-pink);
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-.navbar a:hover {
+.navbar a:hover, .nav-search:hover {
     color: var(--dark-pink);
     border-radius: 10px;
 }
 
-.navbar a.active:hover {
-    border: 3px solid var(--dark-pink);
-    border-radius: 10px;
-    font-weight: bold;
-}
-
 #first-item {
     margin-top: 0;
+}
+
+.search-bar {
+    background-color: var(--dark-pink);
+    height: 30px;
+    width: 20%;
+    z-index: 2;
+}
+
+.search-bar input, .search-bar button {
+    background-color: var(--light-pink);
+    color: var(--dark-pink);
+}
+
+.search-bar button {
+    box-shadow: 0;
 }
 
 @media (min-width: 768px) {
@@ -54,7 +59,7 @@
         display: block;
     }
 
-    .navbar a {
+    .navbar a, .nav-search {
         margin: 10px 0;
         display: block;
     }

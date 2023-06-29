@@ -25,7 +25,8 @@ function App() {
         <Navigation />
         <div className="content">
           <Routes>
-            <Route path="/" element={<HomePage users={users} posts={posts} likes={likes} comments={comments} />} />
+            <Route path="/" element={<HomePage users={users} posts={posts} likes={likes} comments={comments} is_searching={false} />} />
+            <Route path="/search/:query" element={<HomePage users={users} posts={posts} likes={likes} comments={comments} is_searching={true} />} />
             {users.map(user => (
               <>
                 <Route 

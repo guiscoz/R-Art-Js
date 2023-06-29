@@ -1,0 +1,74 @@
+.modal-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.likes-modal {
+    position: fixed;
+    background-color: var(--light-green);
+    border-radius: 15px;
+    color: var(--dark-green);
+    width: 80vw;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.likes-header {
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px var(--main-green) solid;
+}
+
+.likes-header h1 {
+    margin: 5px 0;
+}
+
+.likes-header svg {
+    color: var(--dark-pink);
+    font-size: 1.5rem;
+}
+
+.likes-header svg:hover {
+    color: var(--light-pink);
+}
+
+.like-list {
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.liker {
+    display: flex;
+    align-items: center;
+}
+
+.liker a {
+    text-decoration: none;
+    color: var(--dark-pink);
+    margin-left: 15px;
+}
+
+.liker a:hover {
+    text-decoration: underline;
+}
+
+.liker img {
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--main-green);
+}
+
+@media (min-width: 768px) {
+    .likes-modal {
+        width: 40vw;
+    }
+}

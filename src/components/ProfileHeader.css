@@ -18,6 +18,11 @@ header img {
     background-color: var(--main-green);
 }
 
+section {
+    width: 75%;
+    margin-left: 0;
+}
+
 .top {
     width: 100%;
     display: flex;
@@ -64,5 +69,9 @@ header img {
 
     header img {
         height: 150px;
+    }
+
+    section {
+        width: 25%;
     }
 }
