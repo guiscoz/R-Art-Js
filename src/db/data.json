@@ -83,6 +83,16 @@
             "id": 8,
             "follower_id": 6,
             "following_id": 5
+        },
+        {
+            "id": 9,
+            "follower_id": 7,
+            "following_id": 2
+        },
+        {
+            "id": 10,
+            "follower_id": 2,
+            "following_id": 7
         }
     ],
     "posts": [
@@ -264,6 +274,11 @@
             "id": 10,
             "post_id": 5,
             "user_id": 1
+        },
+        {
+            "id": 11,
+            "post_id": 20,
+            "user_id": 7
         }
     ],
     "comments": [
@@ -278,6 +293,12 @@
             "user_id": 7,
             "post_id": 1,
             "content": "Amazing model"
+        },
+        {
+            "id": 3,
+            "user_id": 7,
+            "post_id": 20,
+            "content": "Oh omy god, you made me so beautiful!"
         }
     ] 
 }

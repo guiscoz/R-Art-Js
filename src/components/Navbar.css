@@ -34,9 +34,13 @@
 
 .search-bar {
     background-color: var(--dark-pink);
+    border-radius: 15px;
     height: 30px;
-    width: 20%;
+    padding: 5px 10px;
     z-index: 2;
+    position: fixed;
+    top: 85vh;
+    left: 20vw;
 }
 
 .search-bar input, .search-bar button {
@@ -49,6 +53,11 @@
 }
 
 @media (min-width: 768px) {
+    .search-bar {
+        top: 40vh;
+        left: 8vw;
+    }
+
     .navbar {
         height: 100vh;
         width: auto;

@@ -2,7 +2,7 @@
 
 .post-container {
     width: 80%;
-    margin: 50px auto 25px;
+    margin: 15px auto 75px;
     background-color: var(--light-green);
     border-radius: 25px;
     padding: 60px 20px 10px;
@@ -76,4 +76,10 @@
 
 .comment-content {
     padding: 5px 15px;
+}
+
+@media (min-width: 768px) {
+    .post-container {
+        margin: 50px auto 25px;
+    }
 }
