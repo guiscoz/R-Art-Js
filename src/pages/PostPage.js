@@ -52,7 +52,7 @@ const PostPage = ({ post, comments, likes, users_comment, users_like }) => {
                                     </div>
                                 </div>
                             );
-                        }).reverse()}
+                        })}
                     </div>
                 </div>
             </div>

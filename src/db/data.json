@@ -20,7 +20,7 @@
         }, 
         {
             "id": 4,
-            "name": "noPicture",
+            "name": "NoPicture",
             "description": "Hello, I have no profile picture",
             "profile_picture": ""
         },
@@ -183,42 +183,36 @@
         },
         {
             "id": 14,
-            "user_id": 5,
-            "image_path": "posts/reginart/islands_02.jpg",
-            "description": "Island of Sumos & Ninjas"
-        },
-        {
-            "id": 15,
             "user_id": 2,
             "image_path": "posts/greenjane/boy.jpg",
             "description": "A boy sitting on the floor"
         },
         {
-            "id": 16,
+            "id": 15,
             "user_id": 2,
             "image_path": "posts/greenjane/dress.jpg",
             "description": "A lady with dress"
         },
         {
-            "id": 17,
+            "id": 16,
             "user_id": 2,
             "image_path": "posts/greenjane/dragon.jpg",
             "description": "A dragon and woman holding a dragon"
         },
         {
-            "id": 18,
+            "id": 17,
             "user_id": 2,
             "image_path": "posts/greenjane/me.jpg",
-            "description": "I drew myself"
+            "description": "I made a drawing of myself from the times I had blue hair and liked to wear green dresses. Now it's the opposite."
         },
         {
-            "id": 19,
+            "id": 18,
             "user_id": 2,
             "image_path": "posts/greenjane/patricia.png",
             "description": "Girl with purple dress"
         },
         {
-            "id": 20,
+            "id": 19,
             "user_id": 2,
             "image_path": "posts/greenjane/someoneElse.jpg",
             "description": "It's someone else"
@@ -268,7 +262,7 @@
         {
             "id": 9,
             "post_id": 4,
-            "user_id": 5
+            "user_id": 2
         },
         {
             "id": 10,
@@ -277,8 +271,93 @@
         },
         {
             "id": 11,
-            "post_id": 20,
+            "post_id": 19,
             "user_id": 7
+        },
+        {
+            "id": 12,
+            "post_id": 3,
+            "user_id": 6
+        },
+        {
+            "id": 13,
+            "post_id": 18,
+            "user_id": 3
+        },
+        {
+            "id": 14,
+            "post_id": 8,
+            "user_id": 4
+        },
+        {
+            "id": 15,
+            "post_id": 13,
+            "user_id": 1
+        },
+        {
+            "id": 16,
+            "post_id": 11,
+            "user_id": 6
+        },
+        {
+            "id": 17,
+            "post_id": 7,
+            "user_id": 4
+        },
+        {
+            "id": 18,
+            "post_id": 16,
+            "user_id": 5
+        },
+        {
+            "id": 19,
+            "post_id": 9,
+            "user_id": 5
+        },
+        {
+            "id": 20,
+            "post_id": 10,
+            "user_id": 2
+        },
+        {
+            "id": 21,
+            "post_id": 17,
+            "user_id": 6
+        },
+        {
+            "id": 22,
+            "post_id": 6,
+            "user_id": 4
+        },
+        {
+            "id": 23,
+            "post_id": 14,
+            "user_id": 1
+        },
+        {
+            "id": 24,
+            "post_id": 20,
+            "user_id": 3
+        },
+        {
+            "id": 25,
+            "post_id": 8,
+            "user_id": 6
+        },
+        {
+            "id": 26,
+            "post_id": 17,
+            "user_id": 4
+        },
+        {
+            "id": 27,
+            "post_id": 11,
+            "user_id": 7
+        },
+        {
+            "id": 28,
+            "post_id": 16,
+            "user_id": 6
         }
     ],
     "comments": [
@@ -297,8 +376,20 @@
         {
             "id": 3,
             "user_id": 7,
-            "post_id": 20,
+            "post_id": 19,
             "content": "Oh omy god, you made me so beautiful!"
+        },
+        {
+            "id": 4,
+            "user_id": 6,
+            "post_id": 13,
+            "content": "Why is the elephant holding a paint squeegee?"
+        },
+        {
+            "id": 5,
+            "user_id": 3,
+            "post_id": 13,
+            "content": "Because that's how elephants make pizza."
         }
     ] 
 }

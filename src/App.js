@@ -6,6 +6,7 @@ import './App.css';
 
 import Navigation from "./components/Navbar";
 import ProfileHeader from "./components/ProfileHeader";
+import ScrollTop from "./components/ScrollTop";
 
 import HomePage from "./pages/HomePage";
 import ProfilePage from "./pages/ProfilePage";
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollTop />
       <div className="container">
         <Navigation />
         <div className="content">
