@@ -19,9 +19,9 @@ const Navigation = () => {
   return (
     <>
       <div className="navbar">
-        <Link to="/" id="first-item"><FontAwesomeIcon icon={faHouse} /><p>Página inicial</p></Link>
-        <Link to="/purplejack"><FontAwesomeIcon icon={faUser} /><p>Perfil</p></Link >
-        <div className="nav-search" onClick={toggleSearchBar}><FontAwesomeIcon icon={faMagnifyingGlass} /><p>Pesquisar</p></div>
+        <Link to="/" id="first-item"><FontAwesomeIcon icon={faHouse} /><p>Home page</p></Link>
+        <Link to="/purplejack"><FontAwesomeIcon icon={faUser} /><p>Profile</p></Link >
+        <div className="nav-search" onClick={toggleSearchBar}><FontAwesomeIcon icon={faMagnifyingGlass} /><p>Search</p></div>
       </div>
       <div className="search-bar" style={{ display: showSearchBar ? "block" : "none" }}>
         <input type="text" id="search_text"></input>
