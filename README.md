@@ -1,6 +1,6 @@
 # About the project
 
-R-Art Js is a React project made for study purposes where there fictional users with their arts posted. With the exception of the images posted by OliverAI, all images were made by myself, including the profile pictures. OliverAI's images where made by Dall-E, a AI image maker tool.
+R-Art Js is a React project made for study purposes where there fictional users with their arts posted. All images were made by myself, including the profile pictures. 
 In this project you can look at the homepage where all the images are avaible. In the navbar, you use the search-bar to search for images with something specific in their description. There are profile pages showing the user's arts, followers and the people he follows. The post page you can who liked and the comments.
 You can't post anything there and login because there is no connection to any database. All data is stored in a json file.
 
